@@ -44,6 +44,7 @@ function createGrid(size) {
     childElement.addEventListener("click", function() {
         // Call the penTool function to start sketching
         penTool();
+        colorGrid.apply(this);
     });
 });    
 }
